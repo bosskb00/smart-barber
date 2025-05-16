@@ -30,8 +30,11 @@ export default function HomePage() {
       <h1 style={{ fontFamily: "Georgia", fontSize: "2.5rem", marginBottom: "10px" }}>
         ✂️ Barber Shop
       </h1>
-      <p style={{ fontSize: "1.2rem", marginBottom: "20px" }}>
+      <p style={{ fontSize: "1.2rem", marginBottom: "10px" }}>
         📞 Contact us: (+39) 123-4567 | 📍 Via Bianchi 123, Rome (RM), Italy
+      </p>
+      <p style={{ fontSize: "1.2rem", marginBottom: "20px" }}>
+        🕒 Working Hours: Monday - Friday, 9:00 AM - 5:00 PM
       </p>
       <button
         onClick={() => navigate("/book")}
